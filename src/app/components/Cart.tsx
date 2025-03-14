@@ -58,7 +58,7 @@ export function Cart() {
 
           {items.length > 0 && (
             <div className="border-t pt-4 mt-4">
-              <div className="flex justify-between text-xl mb-6">
+              <div className="flex text-black justify-between text-xl mb-6">
                 <span>Total:</span>
                 <span>${total.toFixed(2)}</span>
               </div>
@@ -72,7 +72,7 @@ export function Cart() {
                 </button>
                 <button
                   onClick={handleRequestQuote}
-                  className="w-full border border-black py-3 flex items-center justify-center gap-2 hover:bg-gray-50"
+                  className="w-full border border-black text-black py-3 flex items-center justify-center gap-2 hover:bg-gray-50"
                 >
                   <Mail size={20} />
                   Solicitar Cotización
